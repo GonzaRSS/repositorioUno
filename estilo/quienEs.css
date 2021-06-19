@@ -1,0 +1,46 @@
+h1 {font-size: 200%;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+text-decoration-line: underline;
+color: cornsilk;}
+
+body {background-image: url(https://boresbodi.com/wp-content/uploads/2019/10/e145a3e21b203ba45a55abe0b2fe18af_L.jpg);
+background-repeat: no-repeat;
+background-size: cover;}
+
+p { letter-spacing: 5px;
+word-spacing: 5px;
+color: rgb(10, 10, 10);
+font-size: 125%;
+text-align: left;}
+
+a {list-style-type: none;
+text-decoration: none;
+font-size: 150%;
+color: darkgoldenrod;}
+
+.volver {height: 100%;
+width: 100%;
+text-align: center;}
+.volver:hover {transform: scale(3);}
+
+.volverPag {text-align: center;
+height: 100%;
+width: 100%;}
+
+.grid { display: grid;
+    background-image:linear-gradient(rgb(71, 120, 148), #999);
+    grid-template-columns: 450px;
+    grid-template-rows: 300px;
+    grid-template-areas: "area1";
+    column-gap: 60px;
+    row-gap: 0px;
+    justify-content: space-evenly;
+    align-content: stretch;
+border-style: none;}
+
+.gridUno {text-align: center;
+width: 100%;
+height: 100%;
+grid-area: area1;}

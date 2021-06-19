@@ -1,0 +1,30 @@
+body {background-color: rgb(129, 145, 158);}
+
+p {font-style: normal;
+    border: 2px black;
+font-family: sans-serif;
+text-align: center;
+font-size: 100%;
+letter-spacing: 5px;
+word-spacing: 2px;
+border-width: 10px;}
+
+h1 { color: crimson;
+text-align: center;}
+
+.fotoUno {
+    height: 100% ;
+    width: 740px;}
+    .fotoUno:hover {
+    transform: translate(250px);}
+
+    .volver {
+        text-align: center;}
+    
+        .volverUno {text-decoration: none;
+            color: black;
+        font-size: 25px;}
+        .volver:hover {height: 100%;
+        width: 100%;
+    transform: scale(2);}
+
